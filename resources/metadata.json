@@ -1,0 +1,10 @@
+{
+  "name": "NixRun",
+  "description": "Run nix packages",
+  "uuid": "nixrun@ewuuwe.github.com",
+  "gettext-domain": "nixrun@ewuuwe.github.com",
+  "version": 0,
+  "settings-schema": "org.gnome.shell.extensions.nixrun",
+  "url": "",
+  "shell-version": ["47"]
+}

@@ -1,0 +1,32 @@
+.main-window.incognito {
+  background-size: 36px;
+  background-position: 15px 15px;
+}
+
+.main-window.incognito.vertical {
+  background-size: 0;
+}
+
+.main-window .input-entry-container {
+  padding: 14px;
+  padding-bottom: 5px;
+}
+
+.main-window .input-entry-icon {
+  padding: 0 4px;
+  color: inherit;
+}
+
+.main-window .input-entry-fav-icon {
+  padding: 0 4px;
+  color: inherit;
+}
+
+.main-window .input-entry-fav-icon.active {
+  color: #f6d32d;
+}
+
+.indicator-icon {
+  padding: 0px;
+  margin: 0px;
+}

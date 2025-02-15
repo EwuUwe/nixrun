@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2021"],
+    "target": "ES2021",
+    "baseUrl": "./src/",
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "paths": {
+      "@nixrun/*": ["./*"],
+      "@custom_types/gnome-shell/dist/extensions/prefs": ["./prefs/prefs.d.ts"]
+    }
+  },
+  "exclude": ["./dist", "rollup.config.mjs", "./build"]
+}

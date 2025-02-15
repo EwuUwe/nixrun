@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+
+  <schema path="/org/gnome/shell/extensions/nixrun/" id="org.gnome.shell.extensions.nixrun">
+    <key name="history-length" type="i">
+      <range min="10" max="500" />
+      <default>10</default>
+      <summary>History Length</summary>
+      <description>Controls length of the history.</description>
+    </key>
+    <key name="global-shortcut-t" type="as">
+      <default>
+        <![CDATA[['<Shift><Super>r']]]>
+      </default>
+      <summary>Global shortcut key</summary>
+      <description>Controls global shortcut.</description>
+    </key>
+  </schema>
+</schemalist>
